@@ -2,6 +2,12 @@
 
 This project is an AI-based course recommendation system built with Python, Streamlit, scikit-learn, and SQLite. It helps users discover relevant courses based on topics of interest, filtering options, and content similarity using TF-IDF and cosine similarity.
 
+##💡 How it Works
+1.TF-IDF is used to vectorize course titles, descriptions, and categories.
+2.Cosine similarity is calculated between user input and all course vectors.
+3.Recommendations are filtered by similarity threshold and optionally by language.
+4.Top results are shown to the user in a clean UI.
+
 ## 🚀 Features
 
 - 🔍 Search and recommend similar courses by topic or course name.
@@ -13,13 +19,7 @@ This project is an AI-based course recommendation system built with Python, Stre
 
 ---
 
-💡 How it Works
-1.TF-IDF is used to vectorize course titles, descriptions, and categories.
-2.Cosine similarity is calculated between user input and all course vectors.
-3.Recommendations are filtered by similarity threshold and optionally by language.
-4.Top results are shown to the user in a clean UI.
-
---- 
+ 
 
 ## 📂 Project Structure
 
